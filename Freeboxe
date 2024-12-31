@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offre Freebox - 10€/mois</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #1c1c1c;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d60c18;
+            text-align: center;
+        }
+        .offer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .offer img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 2rem;
+            color: #d60c18;
+            margin: 10px 0;
+        }
+        .cta {
+            display: inline-block;
+            background-color: #d60c18;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .cta:hover {
+            background-color: #a50d14;
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Freebox - L'Offre Exceptionnelle</h1>
+    </header>
+
+    <div class="container">
+        <div class="offer">
+            <img src="https://via.placeholder.com/500x300" alt="Image de la Freebox">
+            <h2>La Freebox à seulement 10€/mois !</h2>
+            <p>Profitez d'une connexion ultra-rapide et de services premium à un prix imbattable.</p>
+            <div class="price">10€/mois</div>
+            <a href="#" class="cta">S'abonner maintenant</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Freebox. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
